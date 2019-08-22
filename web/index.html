@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>猿梦极客导航-很有范的导航站</title>
-    <link rel="shortcut icon" href="favcion.ico" />
+    <title>吟风极客导航-很方便很有范的导航站</title>
+    <meta name="keywords" content="吟风,吟风极客,吟风极客导航,web前端导航,it导航">
+    <meta name="description" content="且闻细水轻吟，一袖任风凭。">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href=" css/iconfont.css">
     <link rel="stylesheet" href="../plug-in/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,11 +16,13 @@
     <div class="container" id="container">
         <aside class="left-bar" id="leftBar">
             <div class="title">
-                <p>猿梦极客导航</p>
+                <div style="float:left;clear:both;margin:6px 10px 10px 25px;"><img src="img/favcion1.png" style="text-align:center;"></div>
+                <span><b>吟风极客导航</b></span>
             </div>
             <nav class="nav">
-                <div class="item active"><a href=""><i class="iconfont icon-daohang2"></i>极客导航</a><i class="line"></i></div>
+                <div class="item active"><a href="http://bencky.ml/web/index"><i class="iconfont icon-daohang2"></i><b>吟风导航</b></a><i class="line"></i></div>
                 <ul class="nav-item" id="navItem">
+                    <!--https://www.bootcss.com/p/font-awesome/--><!--官方图标库-->
                     <li><a href="#bbs" class="active"><i class="iconfont icon-shequ"></i>开发社区</a></li>
                     <li><a href="#sill"><i class="iconfont icon-blogger"></i>技术博客</a></li>
                     <li><a href="#docs"><i class="iconfont icon-wendangdocument78"></i>开发文档</a></li>
@@ -27,9 +30,17 @@
                     <li><a href="#design"><i class="iconfont icon-designer"></i>设计资源</a></li>
                     <li><a href="#study"><i class="iconfont icon-xuexi1"></i>学无止境</a></li>
                     <li><a href="#operation"><i class="iconfont icon-yunying"></i>网络运营</a></li>
-                    <li class="download"><a href=""><i class="iconfont icon-github"></i>源码下载</a></li>
+                    <li class="download"><a href="#暂时未上传下载地址"><i class="iconfont icon-github"></i>源码下载</a></li>
+                    <div class="cn">
+                        <div class="item active"><a href="#chat"><i class="iconfont icon-liuyan"></i><b>在线客服</b></a><i class="line"></i></div>
+                            <p><a target="_blank" href="tencent://message/?uin=757490662&Site=qq&Menu=yes"><img border="0" src="img/qqchat.png" alt="点击这里给我发消息" title="消息" /></a></p>
+                            <p><a target="_blank" href="http://wpa.qq.com/msgrd?v=1&uin=757490662&site=qq&menu=yes"><img border="0" src="img/qqchat.png" alt="点击这里给我发消息" title="点击这里给我发消息" /></a> </p>
+                    </div>
                 </ul>
                 <div class="item comment"><a target="_blank" href="http://www.zcbboke.com/liuyan.html"><i class="iconfont icon-liuyan"></i>留言</a></div>
+                <div class="cn">
+                    <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=474eb179ddabc7a67dfd5f285491e6b2a27c0aca091a4bb4"><img border="0" src="img/qqchat.png" alt="点击这里给我发消息" title="点击这里给我发消息" /></a><!--src="http://wpa.qq.com/imgd?IDKEY=474eb179ddabc7a67dfd5f285491e6b2a27c0aca091a4bb4&pic=51"-->
+                </div>
             </nav>
         </aside>
         <section class="main">
@@ -45,6 +56,7 @@
                       </label>
                     </div>
                 </div>
+            </div>
                 <!-- 开发社区 -->
                 <div class="box">
                     <a href="#" name="bbs"></a>
@@ -98,9 +110,7 @@
                             <div class="item">
                                 <div class="logo"><img src="img/oschina.ico" alt="开源中国"> 开源中国</div>
                                 <div class="desc">
-                                    <div class="info">
-                                        目前中国最大的开源技术社区
-                                    </div>
+                                    <div class="info">目前中国最大的开源技术社区</div>
                                 </div>
                             </div>
                         </a>
@@ -139,52 +149,32 @@
                         </a>
                         <a target="_blank" href="http://fex.baidu.com/">
                             <div class="item">
-                                <div class="logo">
-                                    <img src="img/fex-favicon.png"> FEX
-                                </div>
-                                <div class="desc">
-                                    百度Web前端研发部出品
-                                </div>
+                                <div class="logo"><img src="img/fex-favicon.png"> FEX </div>
+                                <div class="desc">百度Web前端研发部出品</div>
                             </div>
                         </a>
                         <a target="_blank" href="http://taobaofed.org/">
                             <div class="item">
-                                <div class="logo">
-                                    <img src="img/fed-favicon.png"> 淘宝前端团队（FED）
-                                </div>
-                                <div class="desc">
-                                    用技术为体验提供无限可能
-                                </div>
+                                <div class="logo"><img src="img/fed-favicon.png"> 淘宝前端团队（FED）</div>
+                                <div class="desc">用技术为体验提供无限可能</div>
                             </div>
                         </a>
                         <a target="_blank" href="https://aotu.io/">
                             <div class="item">
-                                <div class="logo">
-                                    <img src="img/aotu-favicon.png"> 凹凸实验室
-                                </div>
-                                <div class="desc">
-                                    京东用户体验设计部出品
-                                </div>
+                                <div class="logo"><img src="img/aotu-favicon.png"> 凹凸实验室 </div>
+                                <div class="desc">京东用户体验设计部出品</div>
                             </div>
                         </a>
                         <a target="_blank" href="https://75team.com/">
                             <div class="item">
-                                <div class="logo">
-                                    <img src="img/75team-favicon.png"> 奇舞团
-                                </div>
-                                <div class="desc">
-                                    奇虎360旗下前端开发团队出品
-                                </div>
+                                <div class="logo"><img src="img/75team-favicon.png"> 奇舞团 </div>
+                                <div class="desc">奇虎360旗下前端开发团队出品</div>
                             </div>
                         </a>
                         <a target="_blank" href="http://efe.baidu.com/">
                             <div class="item">
-                                <div class="logo">
-                                    <img src="img/efe-favicon.png"> EFE
-                                </div>
-                                <div class="desc">
-                                    由百度多个遵循统一技术体系的前端团队所组成
-                                </div>
+                                <div class="logo"><img src="img/efe-favicon.png"> EFE </div>
+                                <div class="desc">由百度多个遵循统一技术体系的前端团队所组成</div>
                             </div>
                         </a>
                     </div>
@@ -420,11 +410,23 @@
                         </a>
                     </div>
                 </div>
+                <!-- 在线客服 -->
+                <div class="box">
+                    <a href="" name="chat"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-liuyan"></i>在线客服</div>
+                    </div>
+                
+                
+                
+                </div>
                 <footer class="footer">
                     <div class="copyright">
                         <div>
-                            Copyright © 2018- 2050
-                            <a href="http://www.zcbboke.com">极客猿梦导航 钟储兵博客</a>
+                            Copyright © 2019- 2020
+                            <a href="http://navigate.ym1024.com">吟风极客导航</a>
+                            <!--a href="http://navigate.ym1024.com">极客猿梦导航 钟储兵博客</a>
+                            <a href="http://www.zcbboke.com">极客猿梦导航 钟储兵博客</a!-->
                         </div>
                     </div>
                 </footer>
