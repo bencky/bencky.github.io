@@ -1,4 +1,3 @@
-
 @font-face {font-family: "iconfont";
   src: url('iconfont.eot?t=1516947764295'); /* IE9*/
   src: url('iconfont.eot?t=1516947764295#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -14,32 +13,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-shequ:before { content: "\e600"; }
-
 .icon-designer:before { content: "\e613"; }
-
 .icon-wendangdocument78:before { content: "\e723"; }
-
 .icon-blogger:before { content: "\e6a4"; }
-
 .icon-daohang2:before { content: "\e614"; }
-
 .icon-liuyan:before { content: "\e638"; }
-
 .icon-tool:before { content: "\e64d"; }
-
 .icon-xuexi1:before { content: "\e63b"; }
-
 .icon-zixun:before { content: "\e6af"; }
-
 .icon-yunying:before { content: "\e6aa"; }
-
 .icon-daohang:before { content: "\e611"; }
-
 .icon-github:before { content: "\e601"; }
-
 .icon-daohang1:before { content: "\e63d"; }
-
 .icon-xuexi:before { content: "\e604"; }
-
