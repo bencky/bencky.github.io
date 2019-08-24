@@ -6,7 +6,7 @@
     <title>吟风极客导航-很方便很有范的导航站</title>
     <meta name="keywords" content="吟风,吟风极客,吟风极客导航,web前端导航,it导航">
     <meta name="description" content="且闻细水轻吟，一袖任风凭。">
-    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href=" css/iconfont.css">
     <link rel="stylesheet" href="../plug-in/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -50,6 +50,7 @@
                 </div>
             </nav>
         </aside>
+        
         <section class="main">
             <div id="mainContent">
                 <!-- 手机端菜单 -->
@@ -433,17 +434,30 @@
                 </div>
             </div>
 
-
             <footer class="footer">
+                <div class="copyright"><!--<div class="container-fluid"></div>-->
+                    <!--<nav> <a href="#" target="_blank">关于我们</a> <span class="pipe">|</span> <a href="#" target="_blank">联系我们</a> <span class="pipe">|</span> <a href="#" target="_blank">法律声明</a> </nav>-->
+                    <div>
+                        <a href="" target="_blank">关于我们</a> <span class="pipe">|</span> <a href="" target="_blank">联系我们</a> <span class="pipe">|</span> <a href="" target="_blank">法律声明</a>
+                    </div>
+                    <p>
+                        Copyright &copy;2019- 2020. <br>
+                        <a href="http://bencky.ml">丶无殇博客</a>&<a href="http://navigate.ym1024.com">钟储兵</a>
+                    </p>
+                </div>
+            </footer>
+
+
+            <!--<footer class="footer">
                 <div class="copyright">
                     <div>
                         Copyright © 2019- 2020
                         <a href="http://bencky.ml">丶无殇博客</a>&<a href="http://navigate.ym1024.com">钟储兵</a>
-                        <!--a href="http://navigate.ym1024.com">极客猿梦导航 钟储兵博客</a>
-                        <a href="http://www.zcbboke.com">极客猿梦导航 钟储兵博客</a!-->
+                        <!--<a href="http://navigate.ym1024.com">极客猿梦导航 钟储兵博客</a>
+                        <a href="http://www.zcbboke.com">极客猿梦导航 钟储兵博客</a>
                     </div>
                 </div>
-            </footer>
+            </footer>-->
             <div id="fixedBar"><svg class="Zi Zi--BackToTop" title="回到顶部" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M16.036 19.59a1 1 0 0 1-.997.995H9.032a.996.996 0 0 1-.997-.996v-7.005H5.03c-1.1 0-1.36-.633-.578-1.416L11.33 4.29a1.003 1.003 0 0 1 1.412 0l6.878 6.88c.782.78.523 1.415-.58 1.415h-3.004v7.005z"></path></svg></div>
         </section>
         <script src="js/jquery.js"></script>
@@ -504,10 +518,13 @@
                 $('#fixedBar').fadeOut(300);
             }
         });
-        $('#fixedBar').click(function() {
-            $('html,body').animate({scrollTop:'0px'},800);
+
+        $('#fixedBar').click(function () {
+            $('html,body').animate({ scrollTop: '0px' }, 800);
         })
+
         </script>
+    </div>
 </body>
 
 </html>
