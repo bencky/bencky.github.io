@@ -22,17 +22,45 @@
                     <a href="https://bencky.tk/music/index.php" target="view_window" title="Bencky音乐搜索器" alt="Bencky音乐搜索器">音乐搜索器</a>
                     <a href="#" target="view_window" title="团队" alt="团队">更多</a>
                     <a href="#" target="view_window" title="赞助" alt="赞助">更多</a>
-                    <a href="#" target="view_window" title="申请" alt="申请">更多</a>
+                    <a href="https://bencky.tk" target="view_window" title="申请" alt="申请">更多</a>
+                    <!--div>
+                        <script type="text/javascript">
+                            function password() {
+                                var testV = 1;
+                                var pass1 = prompt('请输入密码:', '');
+                                while (testV <= 1) {
+                                    if (!pass1)
+                                        history.go(-1);
+                                    if (pass1 == "123") {//设置密码
+                                        alert('口令正确，进行跳转');
+                                        window.location.href = "https://bencky.tk";//添加你要跳转的页面
+                                        break;
+                                    }
+                                    testV += 1;
+                                    var pass1 =
+                                        prompt('密码错误', '');
+                                }
+                                if (pass1 != "password" & testV == 1)
+                                    history.go(-1);
+                                return " ";
+                            }
+                            document.write(password());
+                        </script>
+                    </div>-->
                 </nav>
             </div>
             <div class="center about"align="center">
                 Copyright&copy;2019-2020&nbsp;<a href="http://bencky.ml"target="_blank">吟风</a>&nbsp;
                 <!--<a href="http://www.xiaoheizy.com"target="_blank">思古</a>&nbsp;-->
+                
             </div>
         </div>
     </section>
-    <iframe src="http://sigu.me/" frameBorder="0" width="0" scrolling="no" height="0" target="_blank"></iframe>
+    
+    <iframe src="http://bencky.ml/" frameBorder="0" width="0" scrolling="no" height="0" target="_blank"></iframe>
     <script src="js/app.js"></script>
     <script>if(/IE (6|7|8)/ig.test(navigator.userAgent))alert("你该升级浏览器了");</script>
+    
+
 </body>
 </html>
