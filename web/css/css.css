@@ -96,3 +96,10 @@ a:hover {
 	left: 20%;
 	width: 60%;
 }	
+
+
+.img-responsive {
+  display: inline-block;
+  height: auto;
+  max-width: 50%;
+}
