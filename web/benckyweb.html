@@ -44,24 +44,25 @@
                     </div>
                 </ul>
                 <div class="item comment">
-                    <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=YwEGDQAIGlJTUlQjEhJNAAwO" style="text-decoration:none;"><!--<i class="iconfont icon-liuyan"></i>-->
+                    <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=YwEGDQAIGlJTUlQjEhJNAAwO" style="text-decoration:none;">
+                        <!--<i class="iconfont icon-liuyan"></i>-->
                         <img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png" />
                     </a>
                 </div>
             </nav>
         </aside>
-        
+
         <section class="main">
             <div id="mainContent">
                 <!-- 手机端菜单 -->
                 <div id="menu-box">
-                   <div id="menu">
-                       <input type="checkbox" id="menu-form">
-                       <label for="menu-form" class="menu-spin">
-                        <div class="line diagonal line-1"></div>
-                        <div class="line horizontal"></div>
-                        <div class="line diagonal line-2"></div>
-                      </label>
+                    <div id="menu">
+                        <input type="checkbox" id="menu-form">
+                        <label for="menu-form" class="menu-spin">
+                            <div class="line diagonal line-1"></div>
+                            <div class="line horizontal"></div>
+                            <div class="line diagonal line-2"></div>
+                        </label>
                     </div>
                 </div>
             </div>
@@ -187,13 +188,12 @@
                             <div class="desc">面向开源及私有软件项目的git托管平台</div>
                         </div>
                     </a>
-                    <!--
                     <a target="_blank" href="http://stackoverflow.com/">
                         <div class="item">
                             <div class="logo"><img src="img/stackoverflow.ico" alt="stackoverflow"> stackoverflow</div>
                             <div class="desc">国外编程相关的IT技术问答网站</div>
                         </div>
-                    </a>-->
+                    </a>
                     <a target="_blank" href="https://segmentfault.com/">
                         <div class="item">
                             <div class="logo"><img src="img/segmentfault.ico" alt="segmentfault"> segmentfault</div>
@@ -523,7 +523,6 @@
                     <div><i class="iconfont icon-liuyan"></i>在线客服</div>
                 </div>
             </div>-->
-
             <!-- 未完待续 -->
             <div class="box">
                 <a href="" name="loading"></a>
@@ -533,7 +532,8 @@
             </div>
 
             <footer class="footer">
-                <div class="copyright"><!--<div class="container-fluid"></div>-->
+                <div class="copyright">
+                    <!--<div class="container-fluid"></div>-->
                     <!--<nav> <a href="#" target="_blank">关于我们</a> <span class="pipe">|</span> <a href="#" target="_blank">联系我们</a> <span class="pipe">|</span> <a href="#" target="_blank">法律声明</a> </nav>-->
                     <div>
                         <a href="" target="_blank">关于我们</a> <span class="pipe">|</span> <a href="" target="_blank">联系我们</a> <span class="pipe">|</span> <a href="" target="_blank">法律声明</a>
@@ -560,66 +560,66 @@
         </section>
         <script src="js/jquery.js"></script>
         <script>
-        var oMenu = document.getElementById('menu');
-        var oLeftBar = document.getElementById('leftBar');
-        var menuFrom = document.getElementById('menu-form');
+            var oMenu = document.getElementById('menu');
+            var oLeftBar = document.getElementById('leftBar');
+            var menuFrom = document.getElementById('menu-form');
 
-        oMenu.onclick = function() {
-            if (oLeftBar.offsetLeft == 0) {
-                oLeftBar.style.left = -249 + 'px';
-            }
-            else {
-                oLeftBar.style.left = 0;
-            }
-        }
-
-
-        // 监听页面宽度变化
-        window.onresize = function() {
-            judgeWidth();
-            // console.log(document.documentElement.clientWidth);
-        };
-
-        // 判断页面宽度
-        function judgeWidth() {
-            if (document.documentElement.clientWidth > 481) {
-                oLeftBar.style.left = 0;
-            } else {
-                oLeftBar.style.left = -249 + 'px';
-            }
-        }
-
-
-        var oNavItem = document.getElementById('navItem');
-        var aA = oNavItem.getElementsByTagName('a');
-        for (var i = 0; i < aA.length; i++) {
-            aA[i].onclick = function() {
-                for (var j = 0; j < aA.length; j++) {
-                    aA[j].className = '';
-                }
-                this.className = 'active';
+            oMenu.onclick = function () {
                 if (oLeftBar.offsetLeft == 0) {
-                    if (document.documentElement.clientWidth <= 481) {
-                        oLeftBar.style.left = -249 + 'px';
-                        menuFrom.checked = false;
+                    oLeftBar.style.left = -249 + 'px';
+                }
+                else {
+                    oLeftBar.style.left = 0;
+                }
+            }
 
+
+            // 监听页面宽度变化
+            window.onresize = function () {
+                judgeWidth();
+                // console.log(document.documentElement.clientWidth);
+            };
+
+            // 判断页面宽度
+            function judgeWidth() {
+                if (document.documentElement.clientWidth > 481) {
+                    oLeftBar.style.left = 0;
+                } else {
+                    oLeftBar.style.left = -249 + 'px';
+                }
+            }
+
+
+            var oNavItem = document.getElementById('navItem');
+            var aA = oNavItem.getElementsByTagName('a');
+            for (var i = 0; i < aA.length; i++) {
+                aA[i].onclick = function () {
+                    for (var j = 0; j < aA.length; j++) {
+                        aA[j].className = '';
+                    }
+                    this.className = 'active';
+                    if (oLeftBar.offsetLeft == 0) {
+                        if (document.documentElement.clientWidth <= 481) {
+                            oLeftBar.style.left = -249 + 'px';
+                            menuFrom.checked = false;
+
+                        }
                     }
                 }
             }
-        }
 
 
-        $(window).scroll(function() {
-            if($(window).scrollTop() >= 200){
-                $('#fixedBar').fadeIn(300);
-            }else{
-                $('#fixedBar').fadeOut(300);
-            }
-        });
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 200) {
+                    $('#fixedBar').fadeIn(300);
+                } else {
+                    $('#fixedBar').fadeOut(300);
+                }
+            });
 
-        $('#fixedBar').click(function () {
-            $('html,body').animate({ scrollTop: '0px' }, 800);
-        })
+            $('#fixedBar').click(function () {
+                $('html,body').animate({ scrollTop: '0px' }, 800);
+            })
 
         </script>
     </div>
