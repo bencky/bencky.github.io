@@ -1,4 +1,7 @@
 ﻿# ubuntu 18.04.3
+
+## 本人编辑详细安装教程：[Ubuntu18.04.3虚拟机安装步骤](https://blog.csdn.net/qq_42372031/article/details/100588245)
+
 ### Linux Ubuntu 18.04.3镜像文件
 
 下载地址如下：
