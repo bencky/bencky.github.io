@@ -18,8 +18,7 @@
 
 15版本：[VMware-workstation-full-15.1.0-13591040](http://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.1.0-13591040.exe)
 
-~~12版本：[VMware-workstation-full-12百度网盘下载]~~
-(https://pan.baidu.com/s/1HhdPVGw8_kVq5NjFHa2F3Q)
+~~12版本：VMware-workstation-full-12百度网盘下载~~
 
 
 
