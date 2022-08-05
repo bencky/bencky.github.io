@@ -6,7 +6,7 @@
 
 下载地址如下：
 
-地址一：[ubuntu18.04.6_desktop_amd64](https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso) `【2022-08-05更新链接】`
+地址一：[ubuntu18.04.3_desktop_amd64](https://old-releases.ubuntu.com/releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso) `【2022-08-05更新链接】`
 
 地址二：[阿里镜像Ubuntu18.04.3_desktop_amd64](https://mirrors.aliyun.com/oldubuntu-releases/releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso) `【2022-08-05更新链接】`
 
