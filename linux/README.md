@@ -1,4 +1,4 @@
-﻿# ubuntu 18.04.3
+# ubuntu 18.04.3
 
 ## 本人编辑详细安装教程：[Ubuntu18.04.3虚拟机安装步骤](https://blog.csdn.net/qq_42372031/article/details/100588245)
 
@@ -6,9 +6,9 @@
 
 下载地址如下：
 
-地址一：[ubuntu18.04.3_desktop_amd64](https://ubuntu.com/download/desktop/thank-you?country=CN&version=18.04.3&architecture=amd64)
+地址一：[ubuntu18.04.3_desktop_amd64](https://old-releases.ubuntu.com/releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso) `【2022-08-05更新链接】`
 
-地址二：[阿里镜像Ubuntu18.04.3_desktop_amd64](https://mirrors.aliyun.com/ubuntu-releases/bionic/ubuntu-18.04.3-desktop-amd64.iso)
+地址二：[阿里镜像Ubuntu18.04.3_desktop_amd64](https://mirrors.aliyun.com/oldubuntu-releases/releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso) `【2022-08-05更新链接】`
 
 
 
